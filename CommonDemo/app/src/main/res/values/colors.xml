@@ -107,5 +107,6 @@
     <color name="pinglun_gray">#c6c6c6</color>
     <color name="order_gray">#8c8b8b</color>
     <color name="address_item">#6e6e6f</color>
+    <color name="province_line_border">#C7C7C7</color>
 
 </resources>

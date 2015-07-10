@@ -10,6 +10,7 @@ import android.widget.ListView;
 import com.bm.demo.R;
 import com.bm.demo.TabViewPager.SimpleTabActivity;
 import com.bm.demo.TabViewPager.TabViewPagerActivity;
+import com.bm.demo.gky.MyProCity;
 import com.bm.demo.upload.UploadActivity;
 
 import java.util.ArrayList;
@@ -32,7 +33,7 @@ public class MainActivity extends Activity {
         list = new ArrayList<AppInfo>();
         list.add(new AppInfo("下拉刷新","赵鑫", UploadActivity.class));
         list.add(new AppInfo("日期控件","郭楷炎", UploadActivity.class));
-        list.add(new AppInfo("省市区三级联动控件","郭楷炎", UploadActivity.class));
+        list.add(new AppInfo("省市区三级联动控件","郭楷炎", MyProCity.class));
         list.add(new AppInfo("城市快速选择seekbar","郭楷炎", UploadActivity.class));
         list.add(new AppInfo("相册一次选择多张图片","杨凯", UploadActivity.class));
         list.add(new AppInfo("图片裁剪","陈斌", UploadActivity.class));
